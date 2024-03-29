@@ -1,0 +1,3 @@
+[submodule "No-SQL_Gen"]
+	path = No-SQL_Gen
+	url = https://github.com/capnmav77/No-SQL_Gen
