@@ -1,0 +1,240 @@
+filter_str,denamed,ipHash,port,whereDetected,regexDetected,emptyFilter,nullArgument,label
+"{'user': '{}', 'password': '{}'}","{'name': '{}', 'name': '{}'}",2130706433,47038,0,0,0,1,0.0
+"{'user': '{}', 'password': '{}'}","{'name': '{}', 'name': '{}'}",2130706433,47038,0,0,0,1,0.0
+{'username': {'$regex': '^{}'}},{'name': {'$regex': '^{}'}},2130706433,47038,0,1,0,1,1.0
+{'username': {'$regex': '^{}'}},{'name': {'$regex': '^{}'}},2130706433,47038,0,1,0,1,1.0
+{'username': {'$ne': '{}'}},{'name': {'$ne': '{}'}},2130706433,47038,0,0,0,1,1.0
+{'username': {'$ne': '{}'}},{'name': {'$ne': '{}'}},2130706433,47038,0,0,0,1,1.0
+{'username': {'$gt': '{}'}},{'name': {'$gt': '{}'}},2130706433,47038,0,0,0,1,1.0
+{'username': {'$gt': '{}'}},{'name': {'$gt': '{}'}},2130706433,47038,0,0,0,1,1.0
+"{'user': 'hacker', 'password': {'$ne': ''}}","{'name': 'name', 'name': {'$ne': ''}}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'hacker', 'password': {'$ne': ''}}","{'name': 'name', 'name': {'$ne': ''}}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'hacker', 'password': {'&ne': ''}}","{'name': 'name', 'name': {'&ne': ''}}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'hacker', 'password': {'&ne': ''}}","{'name': 'name', 'name': {'&ne': ''}}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'alice', 'password': '123456'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'alice', 'password': '123456'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{'username': {'$regex': '^test'}},{'name': {'$regex': '^test'}},2130706433,47038,0,1,0,0,0.0
+{'username': {'$regex': '^test'}},{'name': {'$regex': '^test'}},2130706433,47038,0,1,0,0,0.0
+{'username': {'$regex': '^test'}},{'name': {'$regex': '^test'}},2130706433,47038,0,1,0,0,1.0
+{'username': {'$ne': 'testuser'}},{'name': {'$ne': 'name'}},2130706433,47038,0,0,0,0,0.0
+{'username': {'$ne': 'testuser'}},{'name': {'$ne': 'name'}},2130706433,47038,0,0,0,0,0.0
+{'username': {'$gt': 'guest'}},{'name': {'$gt': 'name'}},2130706433,47038,0,0,0,0,0.0
+{'username': {'$gt': 'guest'}},{'name': {'$gt': 'name'}},2130706433,47038,0,0,0,0,0.0
+"{'user': 'john', 'password': 'qwerty'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'john', 'password': 'qwerty'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'john', 'password': 'qwerty'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{'category': 'electronics'},{'name': 'name'},2130706433,47038,0,0,0,0,0.0
+{'category': 'electronics'},{'name': 'name'},2130706433,47038,0,0,0,0,0.0
+"{'category': 'electronics', 'price': {'$gt': 200}}","{'name': 'name', 'name': {'$gt': 200}}",2130706433,47038,0,0,0,0,0.0
+"{'category': 'electronics', 'price': {'$gt': 200}}","{'name': 'name', 'name': {'$gt': 200}}",2130706433,47038,0,0,0,0,0.0
+"{'category': 'electronics', 'price': {'$gt': 200}, 'name': {'$regex': '^S'}}","{'name': 'name', 'name': {'$gt': 200}, 'name': {'$regex': '^S'}}",2130706433,47038,0,1,0,0,0.0
+"{'category': 'electronics', 'price': {'$gt': 200}, 'name': {'$regex': '^S'}}","{'name': 'name', 'name': {'$gt': 200}, 'name': {'$regex': '^S'}}",2130706433,47038,0,1,0,0,0.0
+{},{},2130706433,47038,0,0,1,0,0.0
+{},{},2130706433,47038,0,0,1,0,0.0
+{'selector': {'department': 'engineering'}},{'name': {'name': 'name'}},2130706433,47038,0,0,0,0,0.0
+{'selector': {'department': 'engineering'}},{'name': {'name': 'name'}},2130706433,47038,0,0,0,0,0.0
+"{'_id': '001', 'name': 'John Doe', 'department': 'HR', 'salary': 50000}","{'name': 'name', 'name': 'name', 'name': 'name', 'name': 50000}",2130706433,47038,0,0,0,0,0.0
+"{'_id': '001', 'name': 'John Doe', 'department': 'HR', 'salary': 50000}","{'name': 'name', 'name': 'name', 'name': 'name', 'name': 50000}",2130706433,47038,0,0,0,0,0.0
+"{'user': '{}', 'password': '{}'}","{'name': '{}', 'name': '{}'}",2130706433,47038,0,0,0,1,0.0
+"{'user': '{}', 'password': '{}'}","{'name': '{}', 'name': '{}'}",2130706433,47038,0,0,0,1,0.0
+{'username': {'$regex': '^{}'}},{'name': {'$regex': '^{}'}},2130706433,47038,0,1,0,1,1.0
+{'username': {'$regex': '^{}'}},{'name': {'$regex': '^{}'}},2130706433,47038,0,1,0,1,1.0
+{'username': {'$ne': '{}'}},{'name': {'$ne': '{}'}},2130706433,47038,0,0,0,1,1.0
+{'username': {'$ne': '{}'}},{'name': {'$ne': '{}'}},2130706433,47038,0,0,0,1,1.0
+{'username': {'$gt': '{}'}},{'name': {'$gt': '{}'}},2130706433,47038,0,0,0,1,1.0
+{'username': {'$gt': '{}'}},{'name': {'$gt': '{}'}},2130706433,47038,0,0,0,1,1.0
+"{'user': 'hacker', 'password': {'$ne': ''}}","{'name': 'name', 'name': {'$ne': ''}}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'hacker', 'password': {'$ne': ''}}","{'name': 'name', 'name': {'$ne': ''}}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'hacker', 'password': {'&ne': ''}}","{'name': 'name', 'name': {'&ne': ''}}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'hacker', 'password': {'&ne': ''}}","{'name': 'name', 'name': {'&ne': ''}}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'alice', 'password': '123456'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'alice', 'password': '123456'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{'username': {'$regex': '^test'}},{'name': {'$regex': '^test'}},2130706433,47038,0,1,0,0,0.0
+{'username': {'$regex': '^test'}},{'name': {'$regex': '^test'}},2130706433,47038,0,1,0,0,0.0
+{'username': {'$regex': '^test'}},{'name': {'$regex': '^test'}},2130706433,47038,0,1,0,0,1.0
+{'username': {'$ne': 'testuser'}},{'name': {'$ne': 'name'}},2130706433,47038,0,0,0,0,0.0
+{'username': {'$ne': 'testuser'}},{'name': {'$ne': 'name'}},2130706433,47038,0,0,0,0,0.0
+{'username': {'$gt': 'guest'}},{'name': {'$gt': 'name'}},2130706433,47038,0,0,0,0,0.0
+{'username': {'$gt': 'guest'}},{'name': {'$gt': 'name'}},2130706433,47038,0,0,0,0,0.0
+"{'user': 'john', 'password': 'qwerty'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'john', 'password': 'qwerty'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'john', 'password': 'qwerty'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{},{},2130706433,47038,0,0,1,0,0.0
+{},{},2130706433,47038,0,0,1,0,0.0
+{'category': 'electronics'},{'name': 'name'},2130706433,47038,0,0,0,0,0.0
+{'category': 'electronics'},{'name': 'name'},2130706433,47038,0,0,0,0,0.0
+"{'category': 'electronics', 'price': {'$gt': 200}}","{'name': 'name', 'name': {'$gt': 200}}",2130706433,47038,0,0,0,0,0.0
+"{'category': 'electronics', 'price': {'$gt': 200}}","{'name': 'name', 'name': {'$gt': 200}}",2130706433,47038,0,0,0,0,0.0
+"{'category': 'electronics', 'price': {'$gt': 200}, 'name': {'$regex': '^S'}}","{'name': 'name', 'name': {'$gt': 200}, 'name': {'$regex': '^S'}}",2130706433,47038,0,1,0,0,0.0
+"{'category': 'electronics', 'price': {'$gt': 200}, 'name': {'$regex': '^S'}}","{'name': 'name', 'name': {'$gt': 200}, 'name': {'$regex': '^S'}}",2130706433,47038,0,1,0,0,0.0
+{},{},2130706433,47038,0,0,1,0,0.0
+{},{},2130706433,47038,0,0,1,0,0.0
+{'selector': {'department': 'engineering'}},{'name': {'name': 'name'}},2130706433,47038,0,0,0,0,0.0
+{'selector': {'department': 'engineering'}},{'name': {'name': 'name'}},2130706433,47038,0,0,0,0,0.0
+"{'_id': '001', 'name': 'John Doe', 'department': 'HR', 'salary': 50000}","{'name': 'name', 'name': 'name', 'name': 'name', 'name': 50000}",2130706433,47038,0,0,0,0,0.0
+"{'_id': '001', 'name': 'John Doe', 'department': 'HR', 'salary': 50000}","{'name': 'name', 'name': 'name', 'name': 'name', 'name': 50000}",2130706433,47038,0,0,0,0,0.0
+"{'user': '{}', 'password': 'pass'}","{'name': '{}', 'name': 'name'}",2130706433,47038,0,0,0,1,0.0
+"{'user': 'user', 'password': '{}'}","{'name': 'name', 'name': '{}'}",2130706433,47038,0,0,0,1,0.0
+"{'user': 'admin', 'password': 'admin'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'admin', 'password': 'admin'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'testuser', 'password': 'testuser'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': '$username', 'password': '$password'}","{'name': '$username', 'name': '$password'}",2130706433,47038,0,0,0,0,0.0
+"{'id': {}, 'value': 1}","{'name': {}, 'name': 1}",2130706433,47038,0,0,0,0,0.0
+"{'name': 'John', 'age': {}}","{'name': 'name', 'name': {}}",2130706433,47038,0,0,0,0,0.0
+{'$where': 'this.age >= {}'},{'$where': 'this.name >= {}'},2130706433,47038,1,0,0,1,1.0
+"{'user': 'admin', 'password': {}}","{'name': 'name', 'name': {}}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'test', 'password': 'test'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'test', 'password': 'test'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$ne': 'testuser'}, 'password': 'pass'}","{'name': {'$ne': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+{'username': {'$regex': '^test'}},{'name': {'$regex': '^test'}},2130706433,47038,0,1,0,0,0.0
+{'username': {'$regex': '^test'}},{'name': {'$regex': '^test'}},2130706433,47038,0,1,0,0,0.0
+{'username': {'$regex': '^test'}},{'name': {'$regex': '^test'}},2130706433,47038,0,1,0,0,1.0
+"{'user': {'$gt': 'guest'}, 'password': 'pass'}","{'name': {'$gt': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'type': 'user', 'name': 'admin', 'roles': ['_admin'], 'password': '123456'}","{'name': 'name', 'name': 'name', 'name': ['name'], 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+{'username': {'$regex': '.*{}.*'}},{'name': {'$regex': '.*{}.*'}},2130706433,47038,0,1,0,0,1.0
+"{'user': 'admin', 'password': {'$nin': ['pass', 'test']}}","{'name': 'name', 'name': {'$nin': ['name', 'name']}}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$in': ['admin', 'root']}, 'password': 'password'}","{'name': {'$in': ['name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'username': {'$regex': '^{}$', '$options': 'i'}}","{'name': {'$regex': '^{}$', '$options': 'name'}}",2130706433,47038,0,1,0,0,1.0
+"{'name': {'$mod': [5, 0]}}","{'name': {'$mod': [5, 0]}}",2130706433,47038,0,0,0,0,1.0
+{'$where': 'this.password.length > 10'},{'$where': 'this.name.length > 10'},2130706433,47038,1,0,0,0,1.0
+"{'user': 'test', 'password': 'pass'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'name': 'John Doe', 'age': {}}","{'name': 'name', 'name': {}}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'guest', 'password': 'guest'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'type': 'admin', 'name': 'admin', 'roles': ['admin'], 'password': 'admin'}","{'name': 'name', 'name': 'name', 'name': ['name'], 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$size': 3}, 'password': '123456'}","{'name': {'$size': 3}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+{'$where': 'this.age <= {}'},{'$where': 'this.name <= {}'},2130706433,47038,1,0,0,1,1.0
+{'name': {'$type': 2}},{'name': {'$type': 2}},2130706433,47038,0,0,0,0,1.0
+{'name': {'$type': 16}},{'name': {'$type': 16}},2130706433,47038,0,0,0,0,1.0
+"{'username': {'$regex': '^test', '$options': 'i'}}","{'name': {'$regex': '^test', '$options': 'name'}}",2130706433,47038,0,1,0,0,1.0
+"{'user': 'guest', 'password': {'$ne': 'guest'}}","{'name': 'name', 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$regex': '^{}$'}, 'password': 'pass'}","{'name': {'$regex': '^{}$'}, 'name': 'name'}",2130706433,47038,0,1,0,0,1.0
+{'$where': 'this.password.length <= 5'},{'$where': 'this.name.length <= 5'},2130706433,47038,1,0,0,0,1.0
+"{'user': 'test', 'password': 'password'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'name': 'Alice', 'age': {}}","{'name': 'name', 'name': {}}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'john', 'password': 'qwerty'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'john', 'password': 'qwerty'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'john', 'password': 'qwerty'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'type': 'user', 'name': 'user', 'roles': ['user'], 'password': 'user'}","{'name': 'name', 'name': 'name', 'name': ['name'], 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'type': 'user', 'name': 'user', 'roles': ['user'], 'password': 'user'}","{'name': 'name', 'name': 'name', 'name': ['name'], 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': ['testuser', 'admin'], 'password': 'password'}","{'name': ['name', 'name'], 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'username': {'$regex': '{}|admin', '$options': 'i'}}","{'name': {'$regex': '{}|admin', '$options': 'name'}}",2130706433,47038,0,1,0,0,1.0
+"{'user': {'$size': 1}, 'password': 'test'}","{'name': {'$size': 1}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+{'name': {'$type': 4}},{'name': {'$type': 4}},2130706433,47038,0,0,0,0,1.0
+{'name': {'$type': 17}},{'name': {'$type': 17}},2130706433,47038,0,0,0,0,1.0
+"{'username': {'$regex': '^{}$'}, 'password': {'$ne': 'test'}}","{'name': {'$regex': '^{}$'}, 'name': {'$ne': 'name'}}",2130706433,47038,0,1,0,0,1.0
+"{'user': 'admin', 'password': 'admin'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'admin', 'password': 'admin'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'root', 'password': 'root'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'admin', 'password': 'password123'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'testuser', 'password': 'testuser123'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'test', 'password': 'test'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'test', 'password': 'test'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'name': 'Bob', 'age': {}}","{'name': 'name', 'name': {}}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'john', 'password': 'password123'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'type': 'user', 'name': 'user', 'roles': ['user'], 'password': 'user'}","{'name': 'name', 'name': 'name', 'name': ['name'], 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'type': 'user', 'name': 'user', 'roles': ['user'], 'password': 'user'}","{'name': 'name', 'name': 'name', 'name': ['name'], 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$elemMatch': {'$eq': 'admin'}}, 'password': {'$ne': 'test'}}","{'name': {'$elemMatch': {'$eq': 'name'}}, 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,1.0
+"{'username': {'$regex': '{}.*admin.*', '$options': 'i'}}","{'name': {'$regex': '{}.*admin.*', '$options': 'name'}}",2130706433,47038,0,1,0,0,1.0
+"{'user': {'$size': 2}, 'password': '123456'}","{'name': {'$size': 2}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+{'name': {'$type': 5}},{'name': {'$type': 5}},2130706433,47038,0,0,0,0,1.0
+{'name': {'$type': 20}},{'name': {'$type': 20}},2130706433,47038,0,0,0,0,1.0
+"{'username': {'$regex': '^{}$', '$options': 'i'}, 'password': {'$ne': 'admin'}}","{'name': {'$regex': '^{}$', '$options': 'name'}, 'name': {'$ne': 'name'}}",2130706433,47038,0,1,0,0,1.0
+"{'user': 'admin', 'password': 'administrator'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'root', 'password': 'administrator'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'admin', 'password': 'admin123'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'testuser', 'password': 'testuser2023'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'test', 'password': 'pass123'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'name': 'Jane', 'age': {}}","{'name': 'name', 'name': {}}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'john', 'password': 'password2023'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'type': 'user', 'name': 'user', 'roles': ['user'], 'password': 'secure123'}","{'name': 'name', 'name': 'name', 'name': ['name'], 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'type': 'user', 'name': 'user', 'roles': ['user'], 'password': 'password2023'}","{'name': 'name', 'name': 'name', 'name': ['name'], 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'malicious1', 'password': 'malicious1password'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+{'username': {'$regex': '^malicious2'}},{'name': {'$regex': '^malicious2'}},2130706433,47038,0,1,0,0,1.0
+"{'user': 'test', 'password': 'test{}'}","{'name': 'name', 'name': 'test{}'}",2130706433,47038,0,0,0,1,1.0
+"{'user': 'test', 'password': 'test{}'}","{'name': 'name', 'name': 'test{}'}",2130706433,47038,0,0,0,1,0.0
+"{'user': {'$in': ['admin', 'root', 'hacker']}, 'password': 'password'}","{'name': {'$in': ['name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$size': 4}, 'password': '123456'}","{'name': {'$size': 4}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+{'name': {'$type': 22}},{'name': {'$type': 22}},2130706433,47038,0,0,0,0,1.0
+{'name': {'$type': 23}},{'name': {'$type': 23}},2130706433,47038,0,0,0,0,1.0
+{'username': {'$regex': '^(malicious3|malicious4)\\d+'}},{'name': {'$regex': '^(malicious3|malicious4)\\d+'}},2130706433,47038,0,1,0,0,1.0
+"{'user': {'$eq': 'admin'}, 'password': 'malicious5'}","{'name': {'$eq': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+{'user': {'$regex': '^malicious6'}},{'name': {'$regex': '^malicious6'}},2130706433,47038,0,1,0,0,1.0
+"{'user': 'malicious9', 'password': {'$ne': 'malicious9password'}}","{'name': 'name', 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$in': ['admin', 'root', 'malicious10']}, 'password': 'malicious10password'}","{'name': {'$in': ['name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$size': 10}, 'password': {'$type': 200}}","{'name': {'$size': 10}, 'name': {'$type': 200}}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'benign28', 'name': {'$type': 2}}","{'name': 'name', 'name': {'$type': 2}}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'benign1', 'password': 'benign1password'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{'username': {'$regex': '^benign2'}},{'name': {'$regex': '^benign2'}},2130706433,47038,0,1,0,0,0.0
+"{'user': 'test', 'password': 'test{}'}","{'name': 'name', 'name': 'test{}'}",2130706433,47038,0,0,0,1,1.0
+"{'user': 'test', 'password': 'test{}'}","{'name': 'name', 'name': 'test{}'}",2130706433,47038,0,0,0,1,0.0
+"{'user': {'$in': ['guest', 'user', 'benign3']}, 'password': 'password'}","{'name': {'$in': ['name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$size': 5}, 'password': '123456'}","{'name': {'$size': 5}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{'name': {'$type': 24}},{'name': {'$type': 24}},2130706433,47038,0,0,0,0,0.0
+{'name': {'$type': 25}},{'name': {'$type': 25}},2130706433,47038,0,0,0,0,0.0
+{'username': {'$regex': '^(benign4|benign5)\\d+'}},{'name': {'$regex': '^(benign4|benign5)\\d+'}},2130706433,47038,0,1,0,0,0.0
+"{'user': {'$eq': 'user'}, 'password': 'benign6'}","{'name': {'$eq': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{'user': {'$regex': '^benign7'}},{'name': {'$regex': '^benign7'}},2130706433,47038,0,1,0,0,0.0
+"{'user': 'benign10', 'password': {'$ne': 'benign10password'}}","{'name': 'name', 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$in': ['guest', 'user', 'benign11']}, 'password': 'benign11password'}","{'name': {'$in': ['name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'malicious11', 'password': 'malicious11password'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+{'username': {'$regex': '^malicious12'}},{'name': {'$regex': '^malicious12'}},2130706433,47038,0,1,0,0,1.0
+"{'user': 'test', 'password': 'test123{}'}","{'name': 'name', 'name': 'test123{}'}",2130706433,47038,0,0,0,1,1.0
+"{'user': {'$in': ['admin', 'root', 'hacker', 'malicious13']}, 'password': 'password'}","{'name': {'$in': ['name', 'name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$size': 6}, 'password': '123456'}","{'name': {'$size': 6}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+{'name': {'$type': 26}},{'name': {'$type': 26}},2130706433,47038,0,0,0,0,1.0
+{'name': {'$type': 27}},{'name': {'$type': 27}},2130706433,47038,0,0,0,0,1.0
+{'username': {'$regex': '^(malicious14|malicious15)\\d+'}},{'name': {'$regex': '^(malicious14|malicious15)\\d+'}},2130706433,47038,0,1,0,0,1.0
+"{'user': {'$eq': 'admin'}, 'password': 'malicious16'}","{'name': {'$eq': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+{'user': {'$regex': '^malicious17'}},{'name': {'$regex': '^malicious17'}},2130706433,47038,0,1,0,0,1.0
+"{'user': 'malicious20', 'password': {'$ne': 'malicious20password'}}","{'name': 'name', 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$in': ['admin', 'root', 'malicious21', 'hacker']}, 'password': 'malicious21password'}","{'name': {'$in': ['name', 'name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'benign12', 'password': 'benign12password'}","{'name': 'name', 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{'username': {'$regex': '^benign13'}},{'name': {'$regex': '^benign13'}},2130706433,47038,0,1,0,0,0.0
+"{'user': 'test', 'password': 'test456{}'}","{'name': 'name', 'name': 'test456{}'}",2130706433,47038,0,0,0,1,0.0
+"{'user': {'$in': ['guest', 'user', 'benign14']}, 'password': 'password'}","{'name': {'$in': ['name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$size': 7}, 'password': '123456'}","{'name': {'$size': 7}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{'name': {'$type': 28}},{'name': {'$type': 28}},2130706433,47038,0,0,0,0,0.0
+{'name': {'$type': 29}},{'name': {'$type': 29}},2130706433,47038,0,0,0,0,0.0
+{'username': {'$regex': '^(benign15|benign16)\\d+'}},{'name': {'$regex': '^(benign15|benign16)\\d+'}},2130706433,47038,0,1,0,0,0.0
+"{'user': {'$eq': 'user'}, 'password': 'benign17'}","{'name': {'$eq': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{'user': {'$regex': '^benign18'}},{'name': {'$regex': '^benign18'}},2130706433,47038,0,1,0,0,0.0
+"{'user': 'benign21', 'password': {'$ne': 'benign21password'}}","{'name': 'name', 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$in': ['guest', 'user', 'benign22']}, 'password': 'benign22password'}","{'name': {'$in': ['name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{'name': {'$type': 30}},{'name': {'$type': 30}},2130706433,47038,0,0,0,0,1.0
+"{'user': {'$gt': 'admin'}, 'password': 'maliciouspassword'}","{'name': {'$gt': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$gt': 'admin'}, 'password': 'maliciouspassword'}","{'name': {'$gt': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'malicious26', 'password': {'$ne': 'maliciouspassword'}}","{'name': 'name', 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$in': ['admin', 'root', 'malicious27', 'hacker', 'test']}, 'password': 'maliciouspassword'}","{'name': {'$in': ['name', 'name', 'name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$size': 9}, 'password': 'benignpassword'}","{'name': {'$size': 9}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{'name': {'$type': 31}},{'name': {'$type': 31}},2130706433,47038,0,0,0,0,0.0
+"{'user': {'$gt': 'user'}, 'password': 'benignpassword'}","{'name': {'$gt': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$gt': 'user'}, 'password': 'benignpassword'}","{'name': {'$gt': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'benign26', 'password': {'$ne': 'benignpassword'}}","{'name': 'name', 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$in': ['guest', 'user', 'Superuser', 'test']}, 'password': 'password123'}","{'name': {'$in': ['name', 'name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$elemMatch': {'$eq': 'user'}}, 'password': {'$ne': 'test'}}","{'name': {'$elemMatch': {'$eq': 'name'}}, 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$elemMatch': {'$eq': 'guest'}}, 'password': {'$ne': 'guest'}}","{'name': {'$elemMatch': {'$eq': 'name'}}, 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$elemMatch': {'$eq': 'admin'}}, 'password': {'$ne': 'admin'}}","{'name': {'$elemMatch': {'$eq': 'name'}}, 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$in': ['admin', 'root', 'hacker', 'test', 'guest']}, 'password': 'password'}","{'name': {'$in': ['name', 'name', 'name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$in': ['user', 'admin', 'guest', 'test', 'hacker']}, 'password': 'password'}","{'name': {'$in': ['name', 'name', 'name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$in': ['guest', 'test', 'user', 'admin', 'hacker']}, 'password': 'password'}","{'name': {'$in': ['name', 'name', 'name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$size': 8}, 'password': '123456'}","{'name': {'$size': 8}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$size': 10}, 'password': '12345678'}","{'name': {'$size': 10}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+{'name': {'$type': 33}},{'name': {'$type': 33}},2130706433,47038,0,0,0,0,0.0
+{'name': {'$type': 34}},{'name': {'$type': 34}},2130706433,47038,0,0,0,0,0.0
+"{'user': {'$gt': 'admin'}, 'password': 'maliciouspassword'}","{'name': {'$gt': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$gt': 'admin'}, 'password': 'maliciouspassword'}","{'name': {'$gt': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$gt': 'user'}, 'password': 'maliciouspassword'}","{'name': {'$gt': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'malicious34', 'password': {'$ne': 'maliciouspassword'}}","{'name': 'name', 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,1.0
+"{'user': 'malicious35', 'password': {'$ne': 'maliciouspassword'}}","{'name': 'name', 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$in': ['admin', 'root', 'malicious36', 'hacker', 'test', 'guest']}, 'password': 'password123'}","{'name': {'$in': ['name', 'name', 'name', 'name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$in': ['user', 'admin', 'guest', 'test', 'hacker', 'malicious37']}, 'password': 'admin123'}","{'name': {'$in': ['name', 'name', 'name', 'name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,1.0
+"{'user': {'$size': 11}, 'password': 'benignpassword'}","{'name': {'$size': 11}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$size': 12}, 'password': 'benignpassword'}","{'name': {'$size': 12}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$gt': 'user'}, 'password': 'benignpassword'}","{'name': {'$gt': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$gt': 'user'}, 'password': 'benignpassword'}","{'name': {'$gt': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$gt': 'guest'}, 'password': 'benignpassword'}","{'name': {'$gt': 'name'}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'benign34', 'password': {'$ne': 'benignpassword'}}","{'name': 'name', 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,0.0
+"{'user': 'benign35', 'password': {'$ne': 'benignpassword'}}","{'name': 'name', 'name': {'$ne': 'name'}}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$in': ['admin', 'root', 'benign36', 'hacker', 'test', 'guest']}, 'password': 'benignpassword'}","{'name': {'$in': ['name', 'name', 'name', 'name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+"{'user': {'$in': ['user', 'admin', 'guest', 'test', 'hacker', 'Admin123']}, 'password': 'benignpassword'}","{'name': {'$in': ['name', 'name', 'name', 'name', 'name', 'name']}, 'name': 'name'}",2130706433,47038,0,0,0,0,0.0
+{'$in': []},{'$in': []},2130706433,47038,0,0,0,0,1.0

@@ -1,0 +1,90 @@
+{
+    "shape": [
+        239,
+        9
+    ],
+    "dtypes": {
+        "filter_str": "object",
+        "denamed": "object",
+        "ipHash": "int64",
+        "port": "object",
+        "whereDetected": "int64",
+        "regexDetected": "int64",
+        "emptyFilter": "int64",
+        "nullArgument": "int64",
+        "label": "float64"
+    },
+    "descriptive_stats": {
+        "ipHash": {
+            "count": 239.0,
+            "mean": 2130706433.0,
+            "std": 0.0,
+            "min": 2130706433.0,
+            "25%": 2130706433.0,
+            "50%": 2130706433.0,
+            "75%": 2130706433.0,
+            "max": 2130706433.0
+        },
+        "whereDetected": {
+            "count": 239.0,
+            "mean": 0.016736401673640166,
+            "std": 0.1285513073731021,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "max": 1.0
+        },
+        "regexDetected": {
+            "count": 239.0,
+            "mean": 0.15481171548117154,
+            "std": 0.36248423047239225,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "max": 1.0
+        },
+        "emptyFilter": {
+            "count": 239.0,
+            "mean": 0.02510460251046025,
+            "std": 0.1567711545364589,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "max": 1.0
+        },
+        "nullArgument": {
+            "count": 239.0,
+            "mean": 0.1087866108786611,
+            "std": 0.31202475201560276,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "max": 1.0
+        },
+        "label": {
+            "count": 239.0,
+            "mean": 0.4686192468619247,
+            "std": 0.5000615271029216,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 1.0,
+            "max": 1.0
+        }
+    },
+    "null_values": {
+        "filter_str": 0,
+        "denamed": 0,
+        "ipHash": 0,
+        "port": 0,
+        "whereDetected": 0,
+        "regexDetected": 0,
+        "emptyFilter": 0,
+        "nullArgument": 0,
+        "label": 0
+    }
+}
