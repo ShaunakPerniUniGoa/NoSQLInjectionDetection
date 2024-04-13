@@ -1,22 +1,53 @@
 {
     "shape": [
-        239,
-        9
+        224,
+        20
     ],
     "dtypes": {
+        "t": "float64",
         "filter_str": "object",
+        "docUUID": "object",
         "denamed": "object",
+        "FindCollectionTarget": "object",
+        "FindCollectionTargetdeNamed": "object",
+        "queryLength": "int64",
         "ipHash": "int64",
         "port": "object",
         "whereDetected": "int64",
         "regexDetected": "int64",
         "emptyFilter": "int64",
         "nullArgument": "int64",
-        "label": "float64"
+        "logicOperator": "int64",
+        "db": "object",
+        "denamedDb": "object",
+        "nreturned": "float64",
+        "cpuNanos": "int64",
+        "label": "float64",
+        "planningTimeMicros": "float64"
     },
     "descriptive_stats": {
+        "t": {
+            "count": 224.0,
+            "mean": 1712243230.365844,
+            "std": 0.04743744783304794,
+            "min": 1712243230.296,
+            "25%": 1712243230.328,
+            "50%": 1712243230.3604999,
+            "75%": 1712243230.40525,
+            "max": 1712243230.453
+        },
+        "queryLength": {
+            "count": 224.0,
+            "mean": 46.776785714285715,
+            "std": 19.571971274687538,
+            "min": 2.0,
+            "25%": 33.0,
+            "50%": 43.0,
+            "75%": 58.0,
+            "max": 105.0
+        },
         "ipHash": {
-            "count": 239.0,
+            "count": 224.0,
             "mean": 2130706433.0,
             "std": 0.0,
             "min": 2130706433.0,
@@ -26,9 +57,9 @@
             "max": 2130706433.0
         },
         "whereDetected": {
-            "count": 239.0,
-            "mean": 0.016736401673640166,
-            "std": 0.1285513073731021,
+            "count": 224.0,
+            "mean": 0.017857142857142856,
+            "std": 0.13272871669592198,
             "min": 0.0,
             "25%": 0.0,
             "50%": 0.0,
@@ -36,9 +67,9 @@
             "max": 1.0
         },
         "regexDetected": {
-            "count": 239.0,
-            "mean": 0.15481171548117154,
-            "std": 0.36248423047239225,
+            "count": 224.0,
+            "mean": 0.16517857142857142,
+            "std": 0.37217330970067614,
             "min": 0.0,
             "25%": 0.0,
             "50%": 0.0,
@@ -46,9 +77,9 @@
             "max": 1.0
         },
         "emptyFilter": {
-            "count": 239.0,
-            "mean": 0.02510460251046025,
-            "std": 0.1567711545364589,
+            "count": 224.0,
+            "mean": 0.026785714285714284,
+            "std": 0.16181822435134718,
             "min": 0.0,
             "25%": 0.0,
             "50%": 0.0,
@@ -56,35 +87,86 @@
             "max": 1.0
         },
         "nullArgument": {
-            "count": 239.0,
-            "mean": 0.1087866108786611,
-            "std": 0.31202475201560276,
+            "count": 224.0,
+            "mean": 0.11607142857142858,
+            "std": 0.32102793738102603,
             "min": 0.0,
             "25%": 0.0,
             "50%": 0.0,
             "75%": 0.0,
             "max": 1.0
         },
+        "logicOperator": {
+            "count": 224.0,
+            "mean": 0.017857142857142856,
+            "std": 0.13272871669592198,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "max": 1.0
+        },
+        "nreturned": {
+            "count": 224.0,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "max": 0.0
+        },
+        "cpuNanos": {
+            "count": 224.0,
+            "mean": 99642.16964285714,
+            "std": 44007.53286534998,
+            "min": 49784.0,
+            "25%": 71093.0,
+            "50%": 88842.0,
+            "75%": 114685.25,
+            "max": 378420.0
+        },
         "label": {
-            "count": 239.0,
-            "mean": 0.4686192468619247,
-            "std": 0.5000615271029216,
+            "count": 224.0,
+            "mean": 0.4642857142857143,
+            "std": 0.49983982059496046,
             "min": 0.0,
             "25%": 0.0,
             "50%": 0.0,
             "75%": 1.0,
             "max": 1.0
+        },
+        "planningTimeMicros": {
+            "count": 224.0,
+            "mean": 63.125,
+            "std": 46.78816396264675,
+            "min": 27.0,
+            "25%": 41.75,
+            "50%": 55.5,
+            "75%": 67.0,
+            "max": 407.0
         }
     },
     "null_values": {
+        "t": 0,
         "filter_str": 0,
+        "docUUID": 0,
         "denamed": 0,
+        "FindCollectionTarget": 0,
+        "FindCollectionTargetdeNamed": 0,
+        "queryLength": 0,
         "ipHash": 0,
         "port": 0,
         "whereDetected": 0,
         "regexDetected": 0,
         "emptyFilter": 0,
         "nullArgument": 0,
-        "label": 0
+        "logicOperator": 0,
+        "db": 0,
+        "denamedDb": 0,
+        "nreturned": 0,
+        "cpuNanos": 0,
+        "label": 0,
+        "planningTimeMicros": 0
     }
 }
