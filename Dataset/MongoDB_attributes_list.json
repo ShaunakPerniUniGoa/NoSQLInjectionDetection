@@ -1,0 +1,18 @@
+{
+    "mongo_db_attr": ["type", "ns", "command", "planSummary", "planningTimeMicros", "keysExamined", "docsExamined", "nBatches", "cursorExhausted", "numYields", "nreturned", "queryFramework", "reslen", "locks", "storage", "cpuNanos", "remote", "protocol", "durationMillis"],
+    "command_columns" : ["find","filter","lsid","$db"],
+    "query_operators": {
+        "selector_comparision": ["$eq","$gt","$gte","$in","$lt","lte","$ne","$nin"],
+        "selector_logical" : ["$and","$not","$nor","$or"],
+        "selector_element" : ["$exists","$type"],
+        "selector_evalutaion" : ["$expr","$jsonSchema","$mod","$regex","$text","$where"],
+        "selector_array" : ["$all","$elemMatch","$size"],
+        "selector_bitwise" : ["$bitsAllClear","$bitsAllSet","$bitsAnyClear","$bitsAnySet"],
+        "projection" : ["$elemMatch","meta","$slice","$"],
+        "misc" : ["$rand","$natural"],
+        "selector": ["$and","$not","$nor","$or", "$eq","$gt","$gte","$in","$lt","lte","$ne","$nin", "$exists","$type", "$expr","$jsonSchema","$mod","$regex","$text","$where", "$all","$elemMatch","$size", "$bitsAllClear","$bitsAllSet","$bitsAnyClear","$bitsAnySet"],
+        "standard_logical":[">=","==","<=","<",">","!=","===","&&","||","!"],
+        "all_operators" : ["$and","$not","$nor","$or", "$eq","$gt","$gte","$in","$lt","lte","$ne","$nin", "$exists","$type", "$expr","$jsonSchema","$mod","$regex","$text","$where", "$all","$elemMatch","$size", "$bitsAllClear","$bitsAllSet","$bitsAnyClear","$bitsAnySet", "$elemMatch","meta","$slice","$", "$rand","$natural",">=","==","<=","<",">","!=","===","&&","||","!"]
+    }
+}
+
