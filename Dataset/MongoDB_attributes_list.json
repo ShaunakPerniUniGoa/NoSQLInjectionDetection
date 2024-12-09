@@ -12,7 +12,9 @@
         "misc" : ["$rand","$natural"],
         "selector": ["$and","$not","$nor","$or", "$eq","$gt","$gte","$in","$lt","lte","$ne","$nin", "$exists","$type", "$expr","$jsonSchema","$mod","$regex","$text","$where", "$all","$elemMatch","$size", "$bitsAllClear","$bitsAllSet","$bitsAnyClear","$bitsAnySet"],
         "standard_logical":[">=","==","<=","<",">","!=","===","&&","||","!"],
-        "all_operators" : ["$and","$not","$nor","$or", "$eq","$gt","$gte","$in","$lt","lte","$ne","$nin", "$exists","$type", "$expr","$jsonSchema","$mod","$regex","$text","$where", "$all","$elemMatch","$size", "$bitsAllClear","$bitsAllSet","$bitsAnyClear","$bitsAnySet", "$elemMatch","meta","$slice","$", "$rand","$natural",">=","==","<=","<",">","!=","===","&&","||","!"]
+        "all_operators" : ["$and","$not","$nor","$or", "$eq","$gt","$gte","$in","$lt","lte","$ne","$nin", "$exists","$type", "$expr","$jsonSchema","$mod","$regex","$text","$where", "$all","$elemMatch","$size", "$bitsAllClear","$bitsAllSet","$bitsAnyClear","$bitsAnySet", "$elemMatch","meta","$slice","$", "$rand","$natural",">=","==","<=","<",">","!=","===","&&","||","!"],
+        "null_operand" : ["{}"],
+        "regex_null_operand" : ["^{}"]
     }
 }
 
