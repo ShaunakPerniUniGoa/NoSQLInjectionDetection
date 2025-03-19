@@ -5,8 +5,6 @@ authors:
     given-names: Shaunak
   - family-names: Shiroadkar
     given-names: Minal
-  - family-names: Ramdas
-    given-names: Karmalli   
 title: "Data analysis notebooks, datasets, for the paper titled MongoDB Injection Query Classification Model using MongoDB Log files as Training Data"
 identifiers:
 date-released: 2024-04-04
